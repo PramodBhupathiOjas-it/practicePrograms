@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class DuplicateElementsArray {
 	
 	static String getDuplicateValues(int arr[]) {
-		String res = "";
+		String res = " ";
 		for(int i =0; i < arr.length; i++ ) {
 			for(int j = i + 1;j < arr.length; j++) {
 				if(arr[i] == arr[j]) {
